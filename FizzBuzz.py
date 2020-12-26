@@ -9,7 +9,7 @@
 #For numbers which are multiples of both three and five print "FizzBuzz".
 
 for x in range(1,101):
-    if x%15==0:
+    if x%15 == 0:
         print('FizzBuzz')
     elif x%3 == 0:
         print('Fizz')
